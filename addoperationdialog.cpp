@@ -22,6 +22,7 @@ Result AddOperationDialog::getResult() const
     r.value = ui->spinMoney->value();
     r.category = ui->comboCategory->currentText();
     r.comment = ui->lineComment->text();
+    r.time = QDateTime::currentDateTime();
     return r;
 }
 

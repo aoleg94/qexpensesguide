@@ -24,6 +24,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     void addRow(const Result &r, bool regular);
+    double dailyIncrement;
 };
 
 #endif // MAINWINDOW_H
